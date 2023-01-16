@@ -1,5 +1,5 @@
 <p align="center">
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=PYTHON%20Hello%20World&fontSize=90&animation=fadeIn&fontAlignY=38&desc=SECOND%20Semester%20|%2005/25%20PROJET%20Python&descAlignY=51&descAlign=62">
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=PYTHON%20Hello%20World&fontSize=60&animation=fadeIn&fontAlignY=38&desc=SECOND%20Semester%20|%2005/25%20PROJET%20Python&descAlignY=51&descAlign=62">
 </p>
 
 ## DOCUMENTATION :  
