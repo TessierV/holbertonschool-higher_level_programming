@@ -4,5 +4,5 @@ for num in range(0, 100):
     j = num % 10
     if num == 89:
         print("{}".format(num))
-    elif i < j:
+    if i < j:
         print("{:02d}".format(num), end=", ")

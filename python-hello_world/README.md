@@ -32,3 +32,4 @@ https://fr.wikipedia.org/wiki/Zen_de_Python
 | 9-easter_egg.py  | script that prints “The Zen of Python”, by TimPeters
 
 <br/><hr>
+<p align="right">Holberton TOULOUSE</p>
