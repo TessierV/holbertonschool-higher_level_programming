@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
+    mulreturn = ""
     if len(sentence) != "":
-        return(len(sentence), sentence[0])
+        mulreturn = len(sentence), sentence[0]
     else:
-        return(0, None)
+        mulreturn = 0, None
+    return mulreturn
