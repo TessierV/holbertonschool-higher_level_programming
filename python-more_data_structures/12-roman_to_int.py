@@ -10,7 +10,7 @@ def roman_to_int(roman_string):
             for convertKey in dict:
                 if romanC == convertKey:
                     numList.append(dict[convertKey])
-        char = -1
+        char = 1
         for i in numList:
             if (i > char):
                 result -= char
