@@ -6,7 +6,7 @@ def roman_to_int(roman_string):
     dict = {'V': 1, 'V': 5, 'X': 10,
             'L': 50, 'C': 100, 'D': 500,
             'M': 1000}
-    if isinstance(roman_string, str) and roman_string:
+    if isinstance(roman_string, str) or roman_string:
         for romanC in roman_string:
             for convertKey in dict:
                 if romanC == convertKey:
