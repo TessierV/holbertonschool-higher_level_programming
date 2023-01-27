@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     result = 0
-    char = 0
     numList = []
     dict = {'V': 1, 'V': 5, 'X': 10,
             'L': 50, 'C': 100, 'D': 500,
@@ -11,6 +10,7 @@ def roman_to_int(roman_string):
             for convertKey in dict:
                 if romanC == convertKey:
                     numList.append(dict[convertKey])
+        char = 0
         for i in numList:
             if (i > char):
                 result -= char
