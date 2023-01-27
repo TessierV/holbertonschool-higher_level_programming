@@ -19,4 +19,4 @@ def roman_to_int(roman_string):
             char = i
         result += char
         return result
-    return result
+    return 0
