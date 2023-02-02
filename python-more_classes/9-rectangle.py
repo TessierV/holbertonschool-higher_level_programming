@@ -72,7 +72,7 @@ class Rectangle:
             raise TypeError('rect_2 must be an instance of Rectangle')
         if type(rect_1) == type(rect_2):
             return rect_1
-
-    @classmetod
+    
+    @classmethod
     def square(cls, size=0):
         return cls(size, size)
