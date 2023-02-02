@@ -46,7 +46,7 @@ class Rectangle:
             print('')
         else:
             rec = ""
-            for i in range (self.__width ):
-                rec += str("#" * self.__height) + '\n'
+            for i in range(self.__height):
+                rec += str('#'*self.__width) + '\n'
             rec = rec[:-1]
             return rec
