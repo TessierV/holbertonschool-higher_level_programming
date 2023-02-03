@@ -4,7 +4,7 @@
 
 def text_indentation(text):
     """prints a text with 2 new lines char: [.,?:]"""
-    if str(text) is False:
+    if isinstance(text, str) is False:
         raise TypeError("text must be a string")
     else:
         i = 0
