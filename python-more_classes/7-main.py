@@ -25,3 +25,7 @@ print(my_rectangle_3)
 
 print("--")
 
+my_rectangle_1 = Rectangle(8, 4)
+my_rectangle_1.print_symbol = 89
+print(my_rectangle_1)
+
