@@ -18,6 +18,9 @@
 | 08/25 | [holbertonschool-higher_level_programming](https://github.com/TessierV/holbertonschool-higher_level_programming) | [Python - Data Structures: Lists, Tuples](https://github.com/TessierV/holbertonschool-higher_level_programming/tree/main/python-data_structures) | List and Tuples |
 | 09/25 | [holbertonschool-higher_level_programming](https://github.com/TessierV/holbertonschool-higher_level_programming) | [Python - More Data Structures: Set, Dictionary](https://github.com/TessierV/holbertonschool-higher_level_programming/tree/main/python-more_data_structures) | Dictionary and set |
 | 10/25 | [holbertonschool-higher_level_programming](https://github.com/TessierV/holbertonschool-higher_level_programming) | [Python - Exceptions](https://github.com/TessierV/holbertonschool-higher_level_programming/tree/main/python-exceptions) | Exceptions |
+| 11/25 | [holbertonschool-higher_level_programming](https://github.com/TessierV/holbertonschool-higher_level_programming) | [Python - Classes](https://github.com/TessierV/holbertonschool-higher_level_programming/tree/main/python-classes) | Classes |
+| 12/25 | [holbertonschool-higher_level_programming](https://github.com/TessierV/holbertonschool-higher_level_programming) | [Python - Test Driven Development](https://github.com/TessierV/holbertonschool-higher_level_programming/tree/main/python-test_driven_development) | Uni Test and interactive tests |
+| 13/25 | [holbertonschool-higher_level_programming](https://github.com/TessierV/holbertonschool-higher_level_programming) | [Python - More Classes](https://github.com/TessierV/holbertonschool-higher_level_programming/tree/main/python-more_classes) | More Classes |
 </details>
 
 
