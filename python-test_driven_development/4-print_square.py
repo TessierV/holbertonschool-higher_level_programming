@@ -6,7 +6,7 @@ def print_square(size):
     if isinstance(size, int) is False:
         raise TypeError('size must be an integer')
     if isinstance(size, int) is True and size < 0:
-        raise ValueError('size must be >= 0')
+        raise TypeError('size must be >= 0')
     else:
         for i in range(size):
             for j in range(size):
