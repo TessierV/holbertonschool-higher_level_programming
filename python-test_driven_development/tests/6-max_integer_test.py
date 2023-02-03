@@ -16,7 +16,10 @@ class TestMaxInteger(unittest.TestCase):
         self.assertAlmostEqual(max_integer([1, 3, 2]),3)
 
     def test_one_negativ(self):
-        self.assertAlmostEqual(max_integer([-1, 2, 3]), 2)
+        self.assertAlmostEqual(max_integer([-1, 4, 3]), 4)
+    
+    def test_all_negativ(self):
+        self.assertAlmostEqual(max_integer([-1, -4, -3]), -4)
 
     def test_one(self):
         self.assertAlmostEqual(max_integer([1]), 1)
