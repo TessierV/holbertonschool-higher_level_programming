@@ -4,10 +4,10 @@
 
 def text_indentation(text):
     """prints a text with 2 new lines char: [.,?:]"""
+    i = 0
     if isinstance(text, str) is False:
         raise TypeError("text must be a string")
     else:
-        i = 0
         try:
             while text[i]:
                 i += 1
