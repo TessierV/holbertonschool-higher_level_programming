@@ -5,7 +5,7 @@
 
 
 def add_integer(a, b=98):
-    '''function who add two integer'''
+    """ function to add two integers """
     try:
         result = a + b
         return int(result)
