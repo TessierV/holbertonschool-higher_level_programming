@@ -23,5 +23,6 @@ class TestMaxInteger(unittest.TestCase):
     
     def test_one_negativ(self):
         self.assertAlmostEqual(max_integer([]), None)
+
 if __name__ == '__main__':
     unittest.main()
