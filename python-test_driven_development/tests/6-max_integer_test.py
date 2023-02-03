@@ -14,6 +14,3 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([-1, 2, 3]), 3)
         self.assertEqual(max_integer([-1, -2, -3]), -3)
         self.assertEqual(max_integer([]), None)
-
-if __name__ == '__main__':
-    unittest.main()
