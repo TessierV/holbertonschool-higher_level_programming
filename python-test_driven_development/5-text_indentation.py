@@ -7,8 +7,8 @@ def text_indentation(text):
     if str(text) is False:
         raise TypeError("text must be a string")
     else:
+        i = 0
         try:
-            i = 0
             while text[i]:
                 i += 1
                 print(text[i], end="")
