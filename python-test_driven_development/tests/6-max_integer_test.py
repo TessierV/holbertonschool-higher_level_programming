@@ -16,7 +16,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertAlmostEqual(max_integer([1, 3, 2]),3)
 
     def test_one_negativ(self):
-        self.assertAlmostEqual(max_integer([1, -2, 3]), 3)
+        self.assertAlmostEqual(max_integer([-1, 0, 2, 3]), 3)
 
 if __name__ == '__main__':
     unittest.main()
