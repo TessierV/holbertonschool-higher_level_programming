@@ -28,6 +28,6 @@ Traceback (most recent call last):
 TypeError: b must be an integer
 
 
->>> add_integer(float('NaN'), float('NaN'))
+>>> add_integer(float('nan'), float('nan'))
 Traceback (most recent call last):
 TypeError: a must be an integer
