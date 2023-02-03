@@ -2,9 +2,13 @@
         <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Doubly%20linked%20lists&fontSize=90&animation=fadeIn&fontAlignY=38&desc=FIRST%20Semester%20|%2031/33%20PROJET%20C#&descAlignY=51&descAlign=62">
 </p>
 
-## DOCUMENTATION :  
-https://www.youtube.com/results?search_query=bitwise+operators+in+c
-![image](https://user-images.githubusercontent.com/113889290/211371495-d702c49e-7222-4c5f-8963-6f612e25f89d.png)
+## DOCUMENTATION : 
+https://python.swaroopch.com/oop.html  
+https://python-course.eu/oop/object-oriented-programming.php  
+https://python-course.eu/oop/properties-vs-getters-and-setters.php  
+https://www.youtube.com/watch?v=1AGyBuVCTeE  
+https://www.youtube.com/watch?v=apACNr7DC_s  
+https://www.youtube.com/watch?v=-DP1i2ZU9gk  
 <br/>
  
 ## PROTOTYPES :
