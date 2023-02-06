@@ -1,7 +1,14 @@
 >>> add_integer = __import__('1-my_list').MyList
 
->>> print(my_list)
+>>> print(self)
 [1, 4, 2, 3, 5]
 
->>> my_list.print_sorted()
+>>> self.print_sorted()
 [1, 2, 3, 4, 5]
+
+>>> print_sorted(self)
+[1, 2, 3, 4, 5]
+
+>>> self.append(3)
+
+>>> self.append(2)
