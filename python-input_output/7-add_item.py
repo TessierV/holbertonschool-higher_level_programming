@@ -18,4 +18,5 @@ try:
     list = load("add_item.json")
 except Exception:
     list = []
+
 save(list, "add_item.json")
