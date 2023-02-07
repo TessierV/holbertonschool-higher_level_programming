@@ -15,3 +15,5 @@ try:
     r2 = Rectangle(4, True)
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))
+
+Rectangle = __import__('8-rectangle').Rectangle
