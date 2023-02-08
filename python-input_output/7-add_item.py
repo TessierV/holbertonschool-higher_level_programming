@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-""" This sys import """
-
 import sys
 """ Function """
 
