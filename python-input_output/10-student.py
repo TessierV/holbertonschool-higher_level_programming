@@ -17,6 +17,6 @@ class Student:
             return self.__dict__
         else:
             for i in attrs:
-                for i in self.__dict__:
+                if i in self.__dict__:
                     list[i] = self.__dict__[i]
                 return list
