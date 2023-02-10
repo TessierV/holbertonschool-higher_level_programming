@@ -4,7 +4,8 @@
 
 class Student:
     """
-    Write a class Student that defines a student.
+    Write a class Student that defines
+    a student by: (based on 9-student.py)
     """
     def __init__(self, first_name, last_name, age):
         self.first_name = first_name
@@ -19,4 +20,4 @@ class Student:
             for i in attrs:
                 if i in self.__dict__:
                     list[i] = self.__dict__[i]
-                return list
+            return list
