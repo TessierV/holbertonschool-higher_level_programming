@@ -12,6 +12,8 @@ def pascal_triangle(n):
     if n <= 0:
         return list
     else:
+        for i in range(n):
+            list.append([1] * (i + 1))
         for i in range(1, len(list)):
             for j in range(1, len(list[i]) - 1):
                 list[i][j] = list[i - 1][j - 1] + list[i - 1][j]
