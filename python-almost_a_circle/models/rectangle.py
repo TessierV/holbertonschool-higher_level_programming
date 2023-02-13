@@ -17,23 +17,37 @@ class Rectangle(Base):
         self.__x = x
         self.__y = y
 
+    def area(self):
+        return self.__width * self.__height
+
     @property
     def width(self):
-        self.__width = width
+        return self.__width
 
     @property
     def height(self):
-        self.__height = height
+        return self.__height
 
     @property
     def x(self):
-        self.__x = x
+        return self.__x
 
     @property
     def y(self):
-        self.__y = y
+        return self.__y
 
+    @width.setter
+    def width(self, value):
+        self.__width = value
 
-    def area(self):
-            """Returns area of instance"""
-            return self.__width * self.__height
+    @height.setter
+    def height(self, value):
+        self.__height = value
+
+    @x.setter
+    def x(self, value):
+        self.__x = value
+
+    @y.setter
+    def y(self, value):
+        self.__y = value
