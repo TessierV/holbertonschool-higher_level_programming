@@ -85,3 +85,8 @@ class Rectangle(Base):
                 if i + 1 != self.__height:
                     rec += "\n"
             print(rec)
+
+    def __repr__(self):
+        """returns [Rectangle] (<id>) <x>/<y> - <width>/<height>"""
+
+        return ('[Rectangle] {}/{} - {}/{}'.format(self.__x, self.__y, self.__width, self.__height))
