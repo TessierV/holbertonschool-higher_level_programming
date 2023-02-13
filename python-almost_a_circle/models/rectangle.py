@@ -8,7 +8,6 @@ from models.base import Base
 
 class Rectangle(Base):
     """Class: Rectangle"""
-    print_symbol = '#'
 
 
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -73,13 +72,17 @@ class Rectangle(Base):
         return self.__height * self.__width
 
     def display(self):
+        """function that rectangle #"""
+
         rec = ""
+        print_symbol = '#'
+
         if self.__width == 0 or self.__height == 0:
             return rec
         else:
             for i in range(self.__height):
-                rec += str(str(self.print_symbol)*self.__width) + '\n'
-                if i is not (self.__height):
-                    rec += ""
-            rec = rec[:-1]
-            return rec
+                for j in range(self.__width):
+                    rec += print_symbol
+                if i + 1 != self.__height:
+                    rec += "\n"
+            print(rec)
