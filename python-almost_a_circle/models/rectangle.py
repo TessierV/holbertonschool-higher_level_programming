@@ -16,3 +16,24 @@ class Rectangle(Base):
         self.__height = height
         self.__x = x
         self.__y = y
+
+    @property
+    def width(self):
+        self.__width = width
+
+    @property
+    def height(self):
+        self.__height = height
+
+    @property
+    def x(self):
+        self.__x = x
+
+    @property
+    def y(self):
+        self.__y = y
+
+
+    def area(self):
+            """Returns area of instance"""
+            return self.__width * self.__height
