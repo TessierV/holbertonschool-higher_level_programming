@@ -3,25 +3,25 @@
 </p>
 
 ## DOCUMENTATION :
-https://www.programcreek.com/python/?CodeExample=update+kwargs
-https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
-https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions
-https://docs.python.org/3/library/json.html
-https://www.youtube.com/watch?v=EukxMIsNeqU
-https://automatetheboringstuff.com/
+https://www.programcreek.com/python/?CodeExample=update+kwargs  
+https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files  
+https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions  
+https://docs.python.org/3/library/json.html  
+https://www.youtube.com/watch?v=EukxMIsNeqU  
+https://automatetheboringstuff.com/  
 <br/>
 
 ## PROTOTYPES :
-`def read_file(filename="");`
-`def write_file(filename="", text="");`
-`def append_write(filename="", text="");`
-`def to_json_string(my_obj);`
-`def from_json_string(my_str);`
-`def save_to_json_file(my_obj, filename);`
-`def load_from_json_file(filename);`
-`def class_to_json(obj);`
-`def __init__(self, first_name, last_name, age);`
-`def pascal_triangle(n);`
+`def read_file(filename="");`  
+`def write_file(filename="", text="");`  
+`def append_write(filename="", text="");`  
+`def to_json_string(my_obj);`  
+`def from_json_string(my_str);`  
+`def save_to_json_file(my_obj, filename);`  
+`def load_from_json_file(filename);`  
+`def class_to_json(obj);`  
+`def __init__(self, first_name, last_name, age);`  
+`def pascal_triangle(n);`  
 
 ## PROJECTS FILES & SCRIPT | MANDATORY :
 <br/>
