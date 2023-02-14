@@ -114,5 +114,3 @@ class Rectangle(Base):
         dic["x"] = self.x
         dic["y"] = self.y
         return dic
-
-
