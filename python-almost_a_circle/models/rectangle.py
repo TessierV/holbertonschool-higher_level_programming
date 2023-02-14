@@ -8,6 +8,8 @@ from models.base import Base
 
 class Rectangle(Base):
     """Class: Rectangle"""
+    print_symbol = '#'
+
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Class constructor"""
@@ -72,19 +74,13 @@ class Rectangle(Base):
 
     def display(self):
         """function that rectangle #"""
-
-        rec = ""
-        print_symbol = '#'
-
-        if self.__width == 0 or self.__height == 0:
-            return rec
-        else:
-            for i in range(self.__height):
-                for j in range(self.__width):
-                    rec += print_symbol
-                if i + 1 != self.__height:
-                    rec += "\n"
-            print(rec)
+        for i in range(self.__y):
+            print()
+        for j in range(self.__height):
+            for k in range(self.__x):
+                print(" ", end="")
+            for l in range(self.__width):
+                print('#', end='' if l != self.__width - 1 else '\n')
 
     def __str__(self):
         """returns [Rectangle] (<id>) <x>/<y> - <width>/<height>"""
