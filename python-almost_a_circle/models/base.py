@@ -48,7 +48,7 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
 
-        dummy = cls(0,)
+        dummy = cls(1,1)
         dummy.x = 0
         dummy.y = 0
         dummy.update(**dictionary)
