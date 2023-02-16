@@ -32,5 +32,5 @@ class Base:
             dict  = []
             if list_objs is not None or len(list_objs) is not 0:
                 for i in list_objs:
-                    dict.append(cls.to_dictionary(i))
+                    dict.append(i.to_dictionary())
             file.write(cls.to_json_string(dict))
