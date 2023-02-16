@@ -36,3 +36,11 @@ class Base:
                 file.write(cls.to_json_string(dict))
             else:
                 file.write("[]")
+
+    @staticmethod
+    def from_json_string(json_string):
+        """return list"""
+        if json_string is not None:
+            return json.loads(json_string)
+        else:
+            return []
