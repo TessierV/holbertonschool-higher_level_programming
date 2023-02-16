@@ -30,7 +30,9 @@ class Base:
         """ json save"""
         with open(cls.__name__+'.json', 'w+', encoding="utf-8") as file:
             dict  = []
-            if list_objs is not None or len(list_objs) is not 0:
+            if list_objs is not None and len(list_objs) != 0:
                 for i in list_objs:
-                    dict.append(i.to_dictionary())
-            file.write(cls.to_json_string(dict))
+                    dict.append(cls.to_dictionary(i))
+                file.write(cls.to_json_string(dict))
+            else:
+                file.write("[]")
