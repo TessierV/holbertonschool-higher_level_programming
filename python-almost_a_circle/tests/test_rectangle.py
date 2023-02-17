@@ -11,11 +11,9 @@ class testbase(unittest.TestCase):
     """Tesst of Rectangle"""
     """Test of Rectangle() for assigning automatically an ID exists"""
 
-    def test_empty(self):
-        """ test with no arg """
-        with self.assertRaises(TypeError):
-            Rectangle()
-
+    def test_invalid_arg_type(self):
+        """Invalid argument type on instantiation"""
+        self.assertRaises(TypeError, Rectangle)
 
 if __name__ == '__main__':
     unittest.main()
