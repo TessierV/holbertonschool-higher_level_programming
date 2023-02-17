@@ -10,10 +10,10 @@ class testbase(unittest.TestCase):
 
     """Tesst of Rectangle"""
     """Test of Rectangle() for assigning automatically an ID exists"""
-    def test_save1(self):
-        Rectangle.save_to_file(None)
-        with open("Rectangle.json") as f:
-            self.assertEqual(f.read(), '[]')
+
+    def test_none(self):
+        base = Rectangle()
+        self.assertEqual(base.to_json_string([]), '[]')
 
 
 if __name__ == '__main__':
