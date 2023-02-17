@@ -11,9 +11,10 @@ class testbase(unittest.TestCase):
     """Tesst of Rectangle"""
     """Test of Rectangle() for assigning automatically an ID exists"""
 
-    def test_none(self):
-        base = Rectangle()
-        self.assertEqual(base.to_json_string('[]'), [])
+    def test_empty(self):
+        """ test with no arg """
+        with self.assertRaises(TypeError):
+            Rectangle()
 
 
 if __name__ == '__main__':
