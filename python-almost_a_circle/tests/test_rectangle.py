@@ -13,7 +13,7 @@ class testbase(unittest.TestCase):
 
     def test_none(self):
         base = Rectangle()
-        self.assertEqual(base.to_json_string([]), '[]')
+        self.assertEqual(base.to_json_string('[]'), [])
 
 
 if __name__ == '__main__':
