@@ -19,12 +19,13 @@ class testbase(unittest.TestCase):
         base = Base()
         self.assertEqual(base.id, 2)
     """Test of Base(89) saving the ID passed exists"""
-    """def test_id_pass(self):
+    def test_id_pass(self):
         base = Base(89)
-        self.assertEqual(base.id, 89)"""
+        self.assertEqual(base.id, 89)
     """Test of Base.to_json_string(None) exists"""
-    def test_2(self):
-        self.assertEqual(Base().to_json_string(None), '[]')
+    def test_none(self):
+        base = Base(None)
+        self.assertEqual(base.id, '[]')
 
 if __name__ == '__main__':
     unittest.main()
