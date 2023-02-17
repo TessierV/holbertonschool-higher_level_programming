@@ -16,7 +16,7 @@ class testbase(unittest.TestCase):
         self.assertRaises(TypeError, Rectangle, 1, "2")
         self.assertRaises(TypeError, Rectangle, "1", 2)
         self.assertRaises(TypeError, Rectangle, "1", "2")
-        self.assertRaises(TypeError, Rectangle, 1, 2, "3")
+        self.assertRaises(TypeError, Rectangle, 1, ... , "3")
 
 if __name__ == '__main__':
     unittest.main()
