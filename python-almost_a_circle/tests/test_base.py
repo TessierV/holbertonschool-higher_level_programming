@@ -25,7 +25,7 @@ class testbase(unittest.TestCase):
     """Test of Base.to_json_string(None) exists"""
     def test_none(self):
         base = Base()
-        self.assertEqual(base.id, None)
+        self.assertEqual(base.to_json_string([]), '[]')
 
 if __name__ == '__main__':
     unittest.main()
