@@ -13,7 +13,7 @@ class testbase(unittest.TestCase):
 
     def test_invalid_arg_type(self):
         """Invalid argument type on instantiation"""
-        self.assertRaises(TypeError, Rectangle)
+        self.assertRaises(TypeError, Rectangle, 1, "2")
 
 if __name__ == '__main__':
     unittest.main()
