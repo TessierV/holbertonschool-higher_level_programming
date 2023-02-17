@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """Test class base"""
-#!/usr/bin/python3
-"""Test class base"""
 
 import unittest
 from models.base import Base
@@ -28,8 +26,10 @@ class testbase(unittest.TestCase):
         self.assertEqual(base.to_json_string([]), '[]')
 
     """Base.from_json_string"""
+    """All test validate from Json string"""
     def test_from_none(self):
         self.assertEqual(Base.from_json_string('[]'), [])
+
 
 if __name__ == '__main__':
     unittest.main()
