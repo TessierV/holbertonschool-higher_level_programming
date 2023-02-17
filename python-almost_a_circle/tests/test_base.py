@@ -19,9 +19,8 @@ class testbase(unittest.TestCase):
     def test_id_pass(self):
         base = Base(89)
         self.assertEqual(base.id, 89)
-    def test_to_json_none(self):
-        obj = Base.to_json_string(None)
-        self.assertEqual(obj, [])
+    def test_2(self):
+        self.assertEqual(Base().to_json_string(None), '[]')
 
 if __name__ == '__main__':
     unittest.main()
