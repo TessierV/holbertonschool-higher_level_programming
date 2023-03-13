@@ -1,5 +1,5 @@
 <p align="center">
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=PYTHON%20More%20Classes%20ans%20Objects&fontSize=49&animation=fadeIn&fontAlignY=38&desc=Second%20Semester%20|%2013/25%20PROJET%20PYTHON&descAlignY=51&descAlign=62">
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=PYTHON%20More%20Classes%20and%20Objects&fontSize=49&animation=fadeIn&fontAlignY=38&desc=Second%20Semester%20|%2013/25%20PROJET%20PYTHON&descAlignY=51&descAlign=62">
 </p>
 
 ## DOCUMENTATION :  
