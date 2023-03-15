@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""task 1"""
+"""script that lists all states from the database"""
 
 import MySQLdb
 import sys
