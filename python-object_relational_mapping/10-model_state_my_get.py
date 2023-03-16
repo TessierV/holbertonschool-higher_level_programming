@@ -23,8 +23,12 @@ if __name__ == "__main__":
 
     result = session.query(State).filter(State.name.like(sys.argv[4])
                                          ).order_by(State.id)
-
     for i in result:
-        print(f'{i.id}')
+        if i is not None:
+            print(f'{i.id}')
+        else:
+            print('No found')
+
+
     session.commit()
     session.close()
