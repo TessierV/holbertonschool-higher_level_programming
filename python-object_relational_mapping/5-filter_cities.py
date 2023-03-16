@@ -24,8 +24,11 @@ if __name__ == "__main__":
                    = % s ORDER BY cities.id ASC""", (sys.argv[4],))
     resultfetch = cursor.fetchall()
 
-    for row in resultfetch:
-        print(row)
+    for i, row in enumerate(resultfetch):
+        if i > 0:
+            print(', ', end='')
+        print(str(row[0]), end='')
+    print()
 
     cursor.close()
     db.close()
