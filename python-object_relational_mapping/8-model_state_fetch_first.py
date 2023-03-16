@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-lists all State objects from the database
+ prints the first State object from the database
 """
 
 
