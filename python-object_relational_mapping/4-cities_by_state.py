@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     cursor = db.cursor()
 
-    cursor.execute("SELECT cities.id, states.name, cities.name \
+    cursor.execute("SELECT cities.id, cities.name, states.name \
                    FROM states, cities WHERE states.id = \
                    cities.state_id ORDER BY cities.id ASC")
     resultfetch = cursor.fetchall()
