@@ -26,5 +26,5 @@ if __name__ == "__main__":
     for i in states:
         print(f'{i.id}: {i.name}')
 
-session.commit()
-session.close()
+    session.commit()
+    session.close()
