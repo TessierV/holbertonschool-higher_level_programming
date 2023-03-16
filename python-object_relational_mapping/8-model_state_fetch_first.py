@@ -26,7 +26,7 @@ if __name__ == "__main__":
     if states is not None:
         print(f'{states.id}: {states.name}')
     else:
-        print('Nothing\n')
+        print('Nothing')
 
     session.commit()
     session.close()
