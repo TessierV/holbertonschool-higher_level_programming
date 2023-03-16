@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-deletes all State objects with a name containing the letter a
+similar to model_state.py named model_city.py
 """
 
 
