@@ -1,16 +1,6 @@
 #!/usr/bin/python3
 """ lists all State objects from the database """
 
-import MySQLdb
-import sys
-import sqlalchemy
-
-from sqlalchemy import (create_engine)
-from model_state import Base, State
-
-#!/usr/bin/python3
-"""Start link class to table in database
-"""
 import sys
 from model_state import Base, State
 from sqlalchemy import create_engine
