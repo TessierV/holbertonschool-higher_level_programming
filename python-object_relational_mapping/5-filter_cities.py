@@ -18,9 +18,9 @@ if __name__ == "__main__":
 
     cursor = db.cursor()
 
-    cursor.execute("""SELECT cities.name \
-                   FROM cities JOIN states \
-                    ON states.id = cities.state_id WHERE states.name \
+    cursor.execute("""SELECT cities.name
+                   FROM cities JOIN states
+                    ON states.id = cities.state_id WHERE states.name
                    = % s ORDER BY cities.id ASC""", (sys.argv[4],))
     resultfetch = cursor.fetchall()
 
