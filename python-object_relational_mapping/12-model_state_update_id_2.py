@@ -23,9 +23,10 @@ if __name__ == "__main__":
 
     result = session.query(State).filter(
         State.id.like(2)).first()
+
     update_name = result
     update_name.name = 'New Mexico'
-    session.add(update_name)
 
+    session.add(update_name)
     session.commit()
     session.close()

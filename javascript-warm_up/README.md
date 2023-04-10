@@ -2,16 +2,13 @@
         <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Doubly%20linked%20lists&fontSize=90&animation=fadeIn&fontAlignY=38&desc=FIRST%20Semester%20|%2031/33%20PROJET%20C#&descAlignY=51&descAlign=62">
 </p>
 
-## DOCUMENTATION :
-https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
-
-https://www.w3schools.com/mysql/mysql_create_db.asp
-https://www.tutorialspoint.com/mysql/mysql-using-joins.htm
-
+## DOCUMENTATION :  
+https://www.youtube.com/results?search_query=bitwise+operators+in+c
+![image](https://user-images.githubusercontent.com/113889290/211371495-d702c49e-7222-4c5f-8963-6f612e25f89d.png)
 <br/>
-
+ 
 ## PROTOTYPES :
-`size_t print_dlistint(const dlistint_t *h);`
+`size_t print_dlistint(const dlistint_t *h);`  
 
 ## PROJECTS FILES & SCRIPT | MANDATORY :
 <br/>
