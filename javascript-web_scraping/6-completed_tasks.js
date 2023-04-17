@@ -1,18 +1,26 @@
 #!/usr/bin/node
-const Request = require('request');
+
+const request = require('request');
 const url = process.argv[2];
 
-Request(url, (error, response, body) => {
-	let data = JSON.parse(body);
-	let counts = {};
-	data.forEach(task => {
-		if (task.completed) {
-			let id = task.userId;
-			if (!counts[id])
-				counts[id] = 1;
-			else
-				counts[id]++;
-		}
-	});
-	console.log(counts);
+request(url, (error, response, body) => {
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  const data = JSON.parse(body);
+  const counts = {};
+
+  data.forEach((task) => {
+    if (task.completed) {
+      const id = task.userId;
+
+      if (!(id in counts)) {
+        counts[id] = 0;
+      }
+      counts[id]++;
+    }
+  });
+  console.log(counts);
 });
