@@ -1,3 +1,3 @@
-$.getJSON("https://fourtonfish.com/hellosalut/?lang=fr", function(data) {
+$.getJSON('https://hellosalut.stefanbohacek.dev/?lang=fr', function(data) {
 	$("DIV#hello").text(data.hello);
 });
