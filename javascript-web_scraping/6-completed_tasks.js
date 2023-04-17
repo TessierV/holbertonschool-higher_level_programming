@@ -1,8 +1,8 @@
 #!/usr/bin/node
 const Request = require('request');
-const Fs = require('fs');
+const url = process.argv[2];
 
-Request(process.argv[2], (error, response, body) => {
+Request(url, (error, response, body) => {
 	let data = JSON.parse(body);
 	let counts = {};
 	data.forEach(task => {
